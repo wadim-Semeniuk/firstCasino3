@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <title>First-casino</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-container">
+        <h1 class="header-logo">
+          <img src="img/logo.svg" alt="first-casino" class="header-logo-img">
+        </h1>
+        <a href="#google" class="sign-up">
+          <button class="sign-up-btn header-btn">Регистрация</button>
+        </a>
+        <a href="#google" class="log-in">
+          <button class="log-in-btn header-btn">Войти</button>
+        </a>
+      </div>
+      <nav class="navigation">
+        <div class="nav-container">
+          <a href="#google" class="nav-link">
+            <svg
+            class="nav-link-img img-1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+           <image  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAZCAMAAAAVHr4VAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAARVBMVEUsLFRhYX+wsL/l5er///97e5TX199UVHTz8/WJiZ/Ly9VGRmmWlqry8vRuboqjo7WVlamIiJ6iorQ5OV/KytTY2N++vsqOvV/xAAAAAWJLR0QEj2jZUQAAAAd0SU1FB+UBGhEaF6aDCIEAAADySURBVCjPhVLbsoQgDOMStHIRXVb//1O3QOfMWdHZPiAl0zZJVeoS2lhYp27DocU032K0cLUHjAtXkBDbd7FAuoL8tHYUyCPI87b9xYXLQJXffGPkR0YrsKrZxXUgwxEhhO6CW/onrIAIT6CDMXiwjrtqjWnot2+6CrFKWdTbtpc/eYmVuTKxDlaTCtuDpKUuIS+Ed2fq+UIuw/ZaU23MwNHSYtHzrvgAvwbu1Ig6nhGqLC9u1zNkAhs6g3IzT0BCkTXF6qCsQ0Ajq4sdFHddX2wgvEpzPbTZ+/caCWCO1Alx8sb5zyFzwJ6yxHDa9pv9iA/IgAg9oQ56KAAAAABJRU5ErkJggg==" />
+           </svg>
+           <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAiCAMAAAAJbCvNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAARVBMVEUsLFRhYX+wsL/l5er///97e5TX199UVHTz8/WJiZ/Ly9VGRmmWlqry8vRuboqjo7WVlamIiJ6iorQ5OV/KytTY2N++vsqOvV/xAAAAAWJLR0QEj2jZUQAAAAd0SU1FB+UBGhA5NLuPZKUAAAD4SURBVDjL1VLLYoQgDOQxaHjrsvr/n9oAttoWvW8uQjJOMhOE+MSQSkOb+7pBi2m+rZNlFgco40cAQmhfq4E4AnA6dQSQxwDuv6wvJrBDCZx3bUo3njIBScwmpOGAHAHHkHfB9O6pXkCEJ4CBUniwmTtIiWnIvS6yitRCaNTTspZf8iMrN2Vijaw0FrYRUV7+j8iW8O4KHB/IZOiTQ1XbM7C1VNHo99ORDVzxzNoEGO7nq+TTETTtPhN4ATMoN6MvAEJvZytr+F7jBaCO1YcOOHqb9APwhFdpm/JtlvWfT5IAnp36kHx5Y//jpNqg9+MR+F23p/tB8QV0ywg9cPoW1AAAAABJRU5ErkJggg==" />
+           </svg>
+            <span class="nav-link-text n-l-casino">Казино</span>
+          </a>
+          <a href="#google" class="nav-link">
+            <svg
+            class="nav-link-img img-2"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+            <image  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaCAMAAACTisy7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAARVBMVEUsLFSKjd+fo/97fslXWJRQUYqRlOqJjd+RleqYnPV0dr8zM197fsqYnPRtb7VmaKpJSn9XWZR0d786O2lCQnRISX7///8Z+U4WAAAAAWJLR0QWfNGoGQAAAAd0SU1FB+UBGhEDGdo7jJ4AAADDSURBVCjPtdFbEoMgDAVQvEpteDU8uv+tNlhEmPpbfhDOhBtEqf+NBes2rvX62PviSQRjz5U1IHp2dN4G7E3tjpf1riPDqNhULKoEvkJC12ZhbCHJVkQ6Lc0NV9V8b1X1ty78muTqw+KdtV7ujGfjycDdtLE8XlMw9jqNPU6YCc2KlgmUx3ML+RKxHPctnsrckYPHUn/fIh/rRDnBEba3pG8gB1PGspomuZwlr8jZuJ4MQC1n6bFwPjao4+v3GYL63/gAmE8JkI8pgCkAAAAASUVORK5CYII=" />
+            </svg>
+            <span class="nav-link-text">Турниры</span>
+          </a>
+          <a href="#google" class="nav-link">
+            <svg
+            class="nav-link-img img-3"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+           <image  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAWCAMAAADkSAzAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAS1BMVEUsLFRQUYqYnPSfo/9XWZSDhtVmaKqYnPWRleptb7V0d79JSn9sb7SKjd+Jjd90dr9ISX5lZ6k6O2lfYJ8zM1+ChdR7fspCQnT///8b5nAlAAAAAWJLR0QYm2mFHgAAAAd0SU1FB+UBGhEOAuXwOz8AAAC/SURBVCjPtVLtEsMQEBTLiVyoNirv/6Y9aaaVRH/2hsMsu/dBqX/boLGbHs6YgSVyo9NEFuaIeUz1giGwUhPmFpsqpsYgM27H2xdjxJTSjPvuUsTjAxIu5j/gAsPMIYjjsXrTxJTdc3tftyDx1uUmSSxVmeuOa/CHVIuWCKqQx7U+2UkKVmawcnM9V0+0CDlvy6V+BStjEMkVpUsML5KhjbQhtjHYDumbuEBG6WFCLC3VY+6CUgUx/vUbDNo+vwAGrAbYcJyOagAAAABJRU5ErkJggg==" />
+           </svg>
+            <span class="nav-link-text">Бонусы</span>
+          </a>
+          <a href="#google" class="nav-link">
+            <svg
+            class="nav-link-img img-4"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+           <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAMAAAA8nnbJAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAS1BMVEUsLFSDhtWfo/9JSn9lZ6mRlOqRlepmaKpCQnRQUYp7fsozM1+YnPV0d79XWZQ6O2lfYJ97fsmJjd+Kjd+YnPRtb7V0dr9sb7T////hWlLvAAAAAWJLR0QYm2mFHgAAAAd0SU1FB+UBGhEQE1sBJBIAAACtSURBVCjPrZHZFoMgDETDiICExVK0//+n5VSpuD218zThkpAEoh8l8JVozzspZa/0KtWX0FSmd7c/FXSNBhiyG7NkMNSInS+5NSo5HLYHNbqAuHiD0PZCrHqDcfEjzGNooUFSabFPlZzZZYbSW1jNAZVMh8ylej4jomiRmBM8X60tYPKHJttRtn0cxc7xHSMh7kicc57jJZrgvMVlMwH5JeUMdGc21m+/m+IvegMxiAU+yBdRgwAAAABJRU5ErkJggg==" />
+           </svg>
+            <span class="nav-link-text">Зал славы</span>
+          </a>
+          <a href="#google" class="nav-link">
+            <svg
+            class="nav-link-img img-5"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+           <image  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAWCAMAAAACYceEAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUVBMVEUsLFRfYJ90dr+ChdSfo/9eYJ5CQnSJjd+Rleptb7VmaKqKjd9JSn9lZ6lQUYp0d78zM1+YnPR7fso6O2mYnPVXWZR7fsmDhtWRlOpsb7T///8u8/oSAAAAAWJLR0QadWfkMgAAAAd0SU1FB+UBGhERKYQWzOEAAAC/SURBVCjPpZHRAoIgDEUBbyIgggJZ//+jNWEWvvQQD3rZ2eZ2FeKvI9UADOp2jY8ak7HWTNBjByzcXNXs4L/AgvC5BCynjut2dPQ+0XtbI5MtkywAVkqP+c4Ehp55j9E9SBk0MIPGSdTeHrERbRxZU963OLjaRPLIrbisKJXYrkaIfUqiI/U7RDYOzKJPSYnbJ96nrVaWtvjpSMyq+hKaV1xCWnXGd14P7LVKojujg/bePzXyhYgogwPyXn7+/BdELwb87OJhpgAAAABJRU5ErkJggg==" />
+           </svg>
+            <span class="nav-link-text">Помощь</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <div class="main-container">
+        <div class="jackpot-container">
+          <a href="#google" class="jackpot-logo">
+            <img class="jackpot-img" src="img/jackpot_desktop_RU-min.jpg" alt="">
+          </a>
+        </div>
+        <section class="table">
+          <h1 class="table-title"> First-casino - краткая информация о казино </h1>
+          <div class="section-container">
+                      <div class="table-container">
+            <div class="table-item">
+              <span class="table-item-text">Название казино</span>
+              <span class="table-item-text sub">FirstCasino (First Casino)</span>
+            </div>
+            <hr class="hr">
+            <div class="table-item">
+              <span class="table-item-text">Дата запуска</span>
+              <span class="table-item-text sub">2019</span>
+            </div>
+            <hr class="hr">
+            <div class="table-item">
+              <span class="table-item-text">Официальный сайт казино</span>
+              <span class="table-item-text sub">1casinowin.com</span>
+            </div>
+            <hr class="hr">
+            <div class="table-item">
+              <span class="table-item-text">Способы оплаты</span>
+              <span class="table-item-text sub">Приват24, Монобанк, MasterCard, Visa</span>
+            </div>
+            <hr class="hr">
+            <div class="table-item">
+              <span class="table-item-text">Валюта</span>
+              <span class="table-item-text sub">гривна</span>
+            </div>
+            <hr class="hr">
+            <div class="table-item">
+              <span class="table-item-text">Бонус на первый депозит</span>
+              <span class="table-item-text sub">111% + 111 фриспинов</span>
+            </div>
+            <hr class="hr">
+            <div class="table-item">
+              <span class="table-item-text">Cashback</span>
+              <span class="table-item-text sub">до 15%</span>
+            </div>
+            <hr class="hr">
+            <div class="table-item">
+              <span class="table-item-text">Язык интерфейса</span>
+              <span class="table-item-text sub">украинский / русский</span>
+            </div>
+            <hr class="hr">
+          </div>
+          </div>
+        </section>
+      </div>
+      <section class="main-jackpot">
+        <div class="jackpot-title">
+          <svg
+          class="jackpot-title-img"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="28px" height="29px">
+          <image  x="0px" y="0px" width="28px" height="29px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAMAAACOj/wDAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACT1BMVEUPDx4gHjAyL0IaGCsRESAVFCQtKj1BPVAYFydKR1fPztTCwsaLipRgXWweGy5EQVJ8eoWhoKfc2uC4t74pKTdhYG25tMKVi6SRiaDT0NifnaZAPE40MUM5Nkg4NUY3NEZdW2m4t72vqLl7bo6Php+3tb0qKjdxcHuelqs5J1VrXoDq6O35+fre3eDV1NnX1dvW1dvl5Oj4+Pm3sME0IlFhUnewrbdmZnK3sr9NPWcyH06elav08/b////g3eRpXX8oFkZ+cZArKzhGRFTIxc1qXX8WAjdlV3rf3eT7+/y3scE6KlUiDkGknLKZlqEjIzEWFSWgnqeNhJ8ZBjpENF/KxdKUi6IpF0cuHEzLyNBGQlQUFCNYVWWmo69UR2ulnrLz8vVZTXEdCT2zs7kdHCwiITF8fIXCvclXSW+If5n19Pb+/v5bTnKOhJ3e3eE5N0kQEB8hIDGBfYy/vMbT0Nny8fTCv8q2tb08OUsPDx9YVmSJhpLV1dj19fX6+vvHx8yUkp5gXm09PEsbGSoyMUBlZHDT0tbQztUwLj8eHS0QECAqKTivrbb8/PyZlqR1cYDu7vDo6OkQDx8pJjixsLe7usIbGiscGiunpa6urLYvLD7h4ePEw8sTEiJxbn3d3N9DQVE2NEXn5+mopq4dGy0/P0zDwsibmqMRECBjY23W1doTEyNUU2D39/fY1tweHS6Ih5Hz8/T29vdOTFsaGSk4NkeCf4xzcH54doN3dYN5doN3dIJ5d4RvbHoxL0AYFyYiIjAcGyodHCshIC8WFiVccu8qAAAAAWJLR0Q90G1RWQAAAAd0SU1FB+UBGhIzHHdR8LsAAAFHSURBVCjPY2CgCDAyMbOgCLCysXPA2Jxc3Dy8fHApfgFBIWERGE9UTFxCUkpaRhYI5OQVFJWUVVTVYJLqGppa2jq6evogYGBoZGxiagaXNLewtLK2sYUBO3sHR1UnmKSzi6ubuwdMztPL28fXzx8mGRAYFBwSCpPUCQuPiIyKhrsvJjYuOB4mmZCYZJ2cgvBXalp6RmYWRC7bIyc3L78AydeFRcUlOlCdpWXlFZUoYZJSVW1WUwuUqqtvaGzCCMPmltY2oKHtHZ1d2IK4u8fWtrcPR/h39k+wnaiAQ3LS5Cm2U6fhirrpM2xn4ozXWbNt50zHITd3nq3t/AUFWOUmLVwEDNjFS7BKLl0GDvblK7BJrqwFh96q1dgk16wFS67DJrl+w0aw5KbNWzAlt27bvmPnrt279+zdhym5/8BBMDh0+AgDxQAADAlqEfkTwhYAAAAASUVORK5CYII=" />
+          </svg>
+          <h2 class="jackpot-text">Джекпот</h2>
+        </div>
+        <a href="#google" class="jackpot-link">
+          <button class="jkp-link-btn">55 555 UAH</button>
+        </a>
+        <div class="bonuses">
+          <div class="bonus-title">Бонусы First-casino</div>
+          <article class="bonuses-choise">
+            <img src="img/first-desktop-v4-min.jpg" alt="first wheel" class="bonuses-img">
+            <div class="bonuses-btns">
+              <a href="#google" class="bonus-btn">Забрать</a>
+              <a href="#google" class="bonus-btn">Подробнее</a>
+            </div>
+          </article>
+          <article class="bonuses-choise">
+            <img src="img/first-wheel-desktop-min.jpg" alt="second wheel" class="bonuses-img">
+            <div class="bonuses-btns">
+              <a href="#google" class="bonus-btn">Забрать</a>
+              <a href="#google" class="bonus-btn">Подробнее</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- main-jackpot -->
+    </main>
+
+  </div>
+  <footer class="footer">
+
+  </footer>
+</body>
+</html>

@@ -1,0 +1,204 @@
+
+.header {
+  background: #63419a;
+  background: -moz-linear-gradient(top, #201e3d, #63419a );
+  background: -webkit-linear-gradient(top, #201e3d, #63419a);
+  background: -o-linear-gradient(top, #201e3d, #63419a);
+  background: -ms-linear-gradient(top, #201e3d, #63419a);
+}
+.header-logo-img {
+  height: 50px;
+}
+.header-container {
+  height: 80px;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-up {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.header-btn {
+  height: 45px;
+  border-radius: 5px;
+  font-size: 17px;
+  outline: none;
+  color: #fff;
+  background: #453070;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 3px solid #fff;
+  padding: 10px;
+}
+.header-btn:hover {
+  opacity: 0.8;
+}
+.navigation {
+  background: #282853;
+}
+.nav-container {
+  margin: auto;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.nav-link-img {
+  display: block;
+  width: 31px;
+  height: 25px;
+}
+.nav-link-text {
+  margin-left: 5px;
+  display: block;
+  color: #9195ea;
+  opacity: 0.9;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 500;
+}
+.n-l-casino {
+  color: #fff;
+}
+.nav-link-text:hover {
+  color: #fff;
+}
+.main-content {
+  background: #03030f;
+}
+.jackpot-container {
+  background: #060618;
+
+  display: flex;
+}
+.jackpot-logo {
+  width: 100%;
+  margin-left: auto;
+  padding: 40px ;
+}
+.jackpot-img {
+  width: 100%;
+  max-height: 380px;
+}
+.main-content {
+  display: flex;
+  background: #03030f;
+}
+.main-container {
+  margin-left: auto;
+  width: 60%;
+}
+.main-jackpot {
+  padding-top: 40px;
+  width: 20%;
+  margin-right: auto;
+  background: #060618;
+}
+.jackpot-title {
+ display: flex;
+ align-items: center;
+ opacity: 0.9;
+}
+.jackpot-text {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+.jackpot-link {
+  display: block;
+  margin-bottom: 50px ;
+  margin-top: 30px;
+
+}
+.jkp-link-btn {
+  outline: none;
+  width: 100%;
+  height: 80px;
+  font-size: 35px;
+  border: 3px solid #ffd700;
+  color: #ffd700;
+  border-radius: 10px;
+  background: #121223;
+}
+.bonuses {
+  border: 3px solid #fff;
+  border-radius: 5px;
+}
+.bonus-title {
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-size: 30px;
+  padding: 18px 0;
+}
+.bonuses-choise {
+  margin-bottom: 30px;
+  width: 93%;
+  margin: auto;
+}
+.bonuses-img {
+  width: 100%;
+  height: 160px;
+}
+.bonuses-btns {
+  margin: 15px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bonus-btn {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: #252552;
+  padding: 5px 0px;
+  border-radius: 5px;
+  width: 47%;
+  border: 2px solid #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+.section-container {
+  background: #0f0f1e;
+}
+.table {
+  margin-right: 40px;
+}
+.table-container {
+  border-top: 10px solid #0f0f1e;
+  padding-top: 10px;
+  width: 97%;
+  margin: auto;
+  background: #151529;
+}
+.table-title {
+  color: #fff;
+  padding: 30px 0px;
+  margin: 0;
+}
+.table-item {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.table-item-text {
+  color:  #fbfbfb;
+}
+.hr {
+  height: 0.1px;
+  background: #fff;
+  opacity: 0.3;
+}
